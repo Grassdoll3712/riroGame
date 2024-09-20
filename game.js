@@ -8,6 +8,7 @@ async function sha256(message) {
 }
 const userHash = await sha256(userName);
 if (userHash != '557e23c37e80e113ad388f63fd8535037c9f73dbb8f3fcf9ee66012d80f24087') {
+  alert('공사중');
   history.go(-1);
 }
 
