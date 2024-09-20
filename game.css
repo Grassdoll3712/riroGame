@@ -1,0 +1,16 @@
+#gameSubmit {
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px black solid;
+  color: white;
+  background-color: #0b0;
+  transition: background-color 0.3s;
+}
+
+#gameSubmit:hover {
+  cursor: pointer;
+  background-color: #0c0;
+}
